@@ -11,7 +11,7 @@ namespace MatRan.Controllers
         public ActionResult Index()
         {
             return View();
-            //test
+            
         }
 
         public ActionResult About()
@@ -26,6 +26,7 @@ namespace MatRan.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+            //This is a Test application to integrate code to CI/CD pipelines//
         }
     }
 }
